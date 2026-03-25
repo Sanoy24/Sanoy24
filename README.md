@@ -24,30 +24,28 @@
 
 ```typescript
 const yonas = {
-    role: "Backend-Heavy Full Stack Developer",
-    experience: "2+ years building production-grade systems",
-    focus: ["Scalable APIs", "Distributed Systems", "AI Agents"],
-    languages: ["TypeScript", "Python", "Go", "JavaScript"],
-    currently: "Exploring agentic AI architectures & LLM tooling",
-    openTo: "Full-time roles | Freelance | Collaboration",
+  role:       "Backend-Heavy Full Stack Developer",
+  experience: "2+ years building production-grade systems",
+  focus:      ["Scalable APIs", "Distributed Systems", "AI Agents"],
+  languages:  ["TypeScript", "Python", "Go", "JavaScript"],
+  currently:  "Exploring agentic AI architectures & LLM tooling",
+  openTo:     "Full-time roles | Freelance | Collaboration",
 };
 ```
 
-> I build **fast, reliable backends** and ship full-stack products end-to-end — from database schema to polished UI. Currently diving deep into **agentic AI development**, building systems where LLMs don't just answer but _act_.
+> I build **fast, reliable backends** and ship full-stack products end-to-end — from database schema to polished UI. Currently diving deep into **agentic AI development**, building systems where LLMs don't just answer but *act*.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### 💬 Languages
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 ### ⚙️ Backend
-
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
@@ -57,18 +55,15 @@ const yonas = {
 ![Chi](https://img.shields.io/badge/Chi-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 ### 🎨 Frontend
-
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 ### 🤖 AI & Agentic Dev
-
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ### 🗄️ Databases & Tools
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
@@ -80,21 +75,64 @@ const yonas = {
 ## 🚀 Featured Projects
 
 ### 🛒 FastAPI E-Commerce Platform
-
 > A production-ready e-commerce backend built with **FastAPI** — featuring JWT auth, product management, order processing, and payment integration.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**Key highlights:**
-
-- 🔐 Secure JWT-based authentication & role-based access control
+- 🔐 JWT-based auth & role-based access control
 - 📦 Full product catalog, cart, and order management
 - ⚡ Async endpoints for high-throughput performance
 - 🐳 Dockerized for easy deployment
 
 [![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanoy24)
+
+---
+
+### 🎬 Movie Streaming Platform
+> A full-stack movie streaming web app with a clean UI, movie browsing, search, and video playback — built to scale.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+- 🎥 Movie discovery, search, and streaming interface
+- 🔒 User authentication and session management
+- 📱 Fully responsive UI with modern design
+- ⚡ Optimized for performance and fast load times
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanoy24/movie-streaming)
+
+---
+
+### 📥 YouTube Video Downloader
+> A backend tool/API that lets users download YouTube videos in various formats and resolutions — clean, fast, and easy to use.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+- 🎞️ Supports multiple video resolutions and audio-only downloads
+- 🚀 Fast async processing via Python backend
+- 🔗 Simple API interface for programmatic use
+- 📁 Format selection (MP4, MP3, etc.)
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanoy24/youtube_video_downloader)
+
+---
+
+### 🤖 Djinni Telegram Bot
+> A Telegram bot that scrapes and delivers curated job listings from **Djinni** — helping developers discover relevant opportunities without leaving Telegram.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+
+- 🔍 Filters job listings by tech stack and experience level
+- 📬 Sends real-time job alerts directly to users via Telegram
+- ⚙️ Configurable preferences per user
+- 🧠 Great showcase of bot architecture + scraping + automation
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanoy24/djinni-telegram-bot)
 
 ---
 
