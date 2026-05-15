@@ -122,5 +122,5 @@ Built a **242-task evaluation benchmark** for B2B sales AI agents from scratch �
 ---
 
 <p align="center">
-  <sub>Available for the right opportunity · <a href="mailto:myonas886@gmail.com">yonassanoy@gmail.com</a> · <a href="https://www.linkedin.com/in/yonassanoy/">LinkedIn</a></sub>
+  <sub>Available for the right opportunity · <a href="mailto:myonas886@gmail.com">myonas886@gmail.com</a> · <a href="https://www.linkedin.com/in/yonassanoy/">LinkedIn</a></sub>
 </p>
