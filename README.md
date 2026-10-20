@@ -66,6 +66,14 @@ Python · TypeScript · Go — MCP servers · agent tooling · developer tools �
 
 ---
 
+## Open-source recognition
+
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Sanoy24/badge.svg)](https://hub.xerj.org/contributors/Sanoy24.html)
+
+A YTGrab commit ([podcast feeds for watched channels](https://github.com/Sanoy24/ytgrab/commit/6eeafb23f7)) was selected for the [XERJ Corpus Hub](https://hub.xerj.org/contributors/Sanoy24.html), an open reference corpus that AI coding agents search for worked examples.
+
+---
+
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanoy24&theme=tokyonight" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sanoy24&theme=tokyonight" />
