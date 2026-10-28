@@ -1,4 +1,4 @@
-# Yonas Mekonnen — Backend & AI Infrastructure Engineer
+# Yonas Mekonnen — Backend & AI Engineer
 
 **I build backend systems and the tooling that makes AI agents safe, deterministic, and observable.**<br/>
 Python · TypeScript · Go — MCP servers · agent tooling · developer tools · backend APIs
