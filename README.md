@@ -1,7 +1,9 @@
 # Yonas Mekonnen — Backend & AI Engineer
 
-**I build backend systems and the tooling that makes AI agents safe, deterministic, and observable.**<br/>
-Python · TypeScript · Go — MCP servers · agent tooling · developer tools · backend APIs
+**I build payments and backend systems, and the tooling that makes AI agents reliable and observable.**<br/>
+Python · TypeScript · Go — payments & fintech backends · MCP servers · agent tooling · developer tools
+
+📍 · working remotely
 
 <p>
   <a href="https://www.linkedin.com/in/yonassanoy/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
@@ -11,13 +13,27 @@ Python · TypeScript · Go — MCP servers · agent tooling · developer tools �
   <a href="https://yonasmekonnen.substack.com"><img src="https://img.shields.io/badge/Blog-FF6719?style=flat-square&logo=substack&logoColor=white" /></a>
 </p>
 
-> 🟢 **Open to work** — Full-time · Contract · Freelance
+> 🟢 **Open to work** — Backend & AI engineering · Full-time · Contract · Remote
 
 ---
 
 ## What I do
 
-3+ years building backend systems, now focused on the infrastructure layer around AI agents: MCP servers, deterministic decision and policy runtimes, code-intelligence tooling, and evaluation. I ship my open-source work as installable packages with tests, CI, and releases.
+3+ years building production backend systems in fintech: a mobile banking super app, a national payment gateway with multi-channel payments (QR, payment links, USSD), payment integrations for a streaming service, and wallet and ledger systems. Day to day that means secure transaction APIs, database tuning, Docker and CI/CD.
+
+I also build the infrastructure layer around AI agents: MCP servers, deterministic decision and policy runtimes, code-intelligence tooling, and evaluation. I ship my open-source work as installable packages with tests, CI, and releases.
+
+---
+
+## Backend & payments
+
+| Project | What it is |
+| --- | --- |
+| [fastapi-ecommerce](https://github.com/Sanoy24/fastapi-ecommerce) | FastAPI commerce backend — Stripe payments with idempotency keys and webhooks, recurring billing with dunning, outbox pattern, row-level locking on stock reservations, ARQ workers, OpenTelemetry/Prometheus, tests on real PostgreSQL via testcontainers |
+| [e-commerce-api](https://github.com/Sanoy24/e-commerce-api) | NestJS + Prisma REST API with Docker Compose |
+| [lyrics-rest-api](https://github.com/Sanoy24/lyrics-rest-api) | Go REST API — GORM, PostgreSQL, unit tests, CI |
+| [djinni-telegram-bot](https://github.com/Sanoy24/djinni-telegram-bot) | Go Telegram bot delivering filtered job alerts from Djinni's RSS feed |
+| [trp1-document-intelligence-refinery](https://github.com/Sanoy24/trp1-document-intelligence-refinery) | Multi-stage document pipeline — Docling, ChromaDB, LangGraph |
 
 ---
 
@@ -44,24 +60,14 @@ Python · TypeScript · Go — MCP servers · agent tooling · developer tools �
 
 ---
 
-## Backend
-
-| Project | What it is |
-| --- | --- |
-| [fastapi-ecommerce](https://github.com/Sanoy24/fastapi-ecommerce) | FastAPI e-commerce backend — Stripe payments & subscriptions, outbox pattern, ARQ workers, OpenTelemetry/Prometheus, tests on real PostgreSQL via testcontainers |
-| [e-commerce-api](https://github.com/Sanoy24/e-commerce-api) | NestJS + Prisma REST API with Docker Compose |
-| [lyrics-rest-api](https://github.com/Sanoy24/lyrics-rest-api) | Go REST API — GORM, PostgreSQL, unit tests, CI |
-| [djinni-telegram-bot](https://github.com/Sanoy24/djinni-telegram-bot) | Go Telegram bot delivering filtered job alerts from Djinni's RSS feed |
-| [trp1-document-intelligence-refinery](https://github.com/Sanoy24/trp1-document-intelligence-refinery) | Multi-stage document pipeline — Docling, ChromaDB, LangGraph |
-
----
-
 ## Skills
 
 **Languages** — Python · TypeScript · Go · JavaScript<br/>
 **Backend** — FastAPI · NestJS · Node.js · Express · Gin · Django<br/>
 **AI & agents** — MCP · LangGraph · LangChain · OpenAI · Anthropic · Vercel AI SDK · Langfuse · LangSmith<br/>
-**Data & infra** — PostgreSQL · Redis · MongoDB · SQLite · ChromaDB · Docker · GitHub Actions<br/>
+**Payments** — Stripe · idempotency · outbox pattern · wallets & ledgers<br/>
+**Data & infra** — PostgreSQL · MySQL · Redis · MongoDB · SQLite · ChromaDB · Docker · AWS · GitHub Actions<br/>
+**Testing** — pytest · testcontainers · Go testing · ruff · mypy<br/>
 **ML** — Hugging Face · LoRA / SimPO fine-tuning · RAG · LLM evaluation
 
 ---
