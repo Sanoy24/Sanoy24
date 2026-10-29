@@ -1,9 +1,7 @@
-# Yonas Mekonnen — Backend & AI Engineer
+# Yonas Mekonnen - Backend & AI Engineer
 
 **I build payments and backend systems, and the tooling that makes AI agents reliable and observable.**<br/>
-Python · TypeScript · Go — payments & fintech backends · MCP servers · agent tooling · developer tools
-
-📍 · working remotely
+Python · TypeScript · Go - payments & fintech backends · MCP servers · agent tooling · developer tools
 
 <p>
   <a href="https://www.linkedin.com/in/yonassanoy/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
