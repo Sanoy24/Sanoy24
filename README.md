@@ -78,7 +78,9 @@ A YTGrab commit ([podcast feeds for watched channels](https://github.com/Sanoy24
 
 [![Brownfield Cartographer MCP server](https://mcprush.com/badge/brownfield-cartographer-mcp/card.svg)](https://mcprush.com/to/brownfield-cartographer-mcp?ref=badge)
 
-The [Brownfield Cartographer](https://github.com/Sanoy24/the-brownfield-cartographer) MCP server is listed on mcprush, an MCP server directory, with a security grade of A.
+[![Safe Fetch MCP server](https://mcprush.com/badge/safe-fetch-mcp/card.svg)](https://mcprush.com/to/safe-fetch-mcp?ref=badge)
+
+The [Brownfield Cartographer](https://github.com/Sanoy24/the-brownfield-cartographer) and [safe-fetch](https://github.com/Sanoy24/safe-fetch-mcp-server) MCP servers are listed on mcprush, an MCP server directory, both with a security grade of A.
 
 ---
 
