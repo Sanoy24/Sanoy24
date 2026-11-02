@@ -76,6 +76,10 @@ I also build the infrastructure layer around AI agents: MCP servers, determinist
 
 A YTGrab commit ([podcast feeds for watched channels](https://github.com/Sanoy24/ytgrab/commit/6eeafb23f7)) was selected for the [XERJ Corpus Hub](https://hub.xerj.org/contributors/Sanoy24.html), an open reference corpus that AI coding agents search for worked examples.
 
+[![Brownfield Cartographer MCP server](https://mcprush.com/badge/brownfield-cartographer-mcp/card.svg)](https://mcprush.com/to/brownfield-cartographer-mcp?ref=badge)
+
+The [Brownfield Cartographer](https://github.com/Sanoy24/the-brownfield-cartographer) MCP server is listed on mcprush, an MCP server directory, with a security grade of A.
+
 ---
 
 <p align="center">
