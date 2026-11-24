@@ -47,8 +47,6 @@ Available for freelance projects. I'm on UTC+3, so I overlap with the European w
 
 Graduated with distinction (top 3%) from 10 Academy's AI Agent and Forward Deployed Engineering program.
 
-**Currently building:** a pre-release AI payments assistant for a banking client (November 2026).
-
 ---
 
 [Portfolio](https://yonas-mekonnen-portfolio-zeta.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/yonassanoy/)
