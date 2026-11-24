@@ -51,4 +51,4 @@ Graduated with distinction (top 3%) from 10 Academy's AI Agent and Forward Deplo
 
 ---
 
-**[Hire me on Upwork](https://www.upwork.com/freelancers/~01aacbf104ed26ec0d)**
+[Portfolio](https://yonas-mekonnen-portfolio-zeta.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/yonassanoy/)
