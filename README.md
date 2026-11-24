@@ -1,94 +1,54 @@
-# Yonas Mekonnen - Backend & AI Engineer
+# AI agent & backend developer
 
-**I build payments and backend systems, and the tooling that makes AI agents reliable and observable.**<br/>
-Python · TypeScript · Go - payments & fintech backends · MCP servers · agent tooling · developer tools
+**Python · Node.js/TypeScript · Go · React**
 
-<p>
-  <a href="https://www.linkedin.com/in/yonassanoy/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://yonas-mekonnen-portfolio-zeta.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
-  <a href="mailto:myonas886@gmail.com"><img src="https://img.shields.io/badge/myonas886@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://huggingface.co/sanoy24"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /></a>
-  <a href="https://yonasmekonnen.substack.com"><img src="https://img.shields.io/badge/Blog-FF6719?style=flat-square&logo=substack&logoColor=white" /></a>
-</p>
+I build AI agents that do real work for a business: reply to new leads, answer customer questions, and pull answers out of documents. They run on tested backends, connected to the tools you already use, like HubSpot, GoHighLevel, Twilio, Shopify and Stripe.
 
-> 🟢 **Open to work** — Backend & AI engineering · Full-time · Contract · Remote
+Before freelancing I spent 3+ years building payment backends in fintech, including a banking app with 2M+ users and 25M+ transactions. That's where I learned to write code that survives retries, duplicate webhooks and bad inputs.
+
+Available for freelance projects. I'm on UTC+3, so I overlap with the European workday and the US morning.
 
 ---
 
-## What I do
+## AI agents you can try
 
-3+ years building production backend systems in fintech: a mobile banking super app, a national payment gateway with multi-channel payments (QR, payment links, USSD), payment integrations for a streaming service, and wallet and ledger systems. Day to day that means secure transaction APIs, database tuning, Docker and CI/CD.
+**[AI speed-to-lead agent](https://github.com/Sanoy24/ai-lead-agent)** for service businesses. Replies to every new lead by text, email or Telegram, asks your qualifying questions, sends qualified leads your booking link and keeps your CRM up to date. Your team can take over any conversation.<br/>
+[▶ Watch the 2-minute demo](https://youtu.be/X6X4b2D8GlA) · 150 tests in CI · HubSpot and GoHighLevel sync
 
-I also build the infrastructure layer around AI agents: MCP servers, deterministic decision and policy runtimes, code-intelligence tooling, and evaluation. I ship my open-source work as installable packages with tests, CI, and releases.
+**[AI support agent](https://github.com/Sanoy24/ai-support-agent)** for online stores. Answers questions about orders, shipping and returns from your own store data, and hands anything else to a person on your team.<br/>
+[▶ Watch the 2-minute demo](https://www.youtube.com/watch?v=wgjD3xhUipU) · Shopify or demo store · admin dashboard
 
----
-
-## Backend & payments
-
-| Project | What it is |
-| --- | --- |
-| [fastapi-ecommerce](https://github.com/Sanoy24/fastapi-ecommerce) | FastAPI commerce backend — Stripe payments with idempotency keys and webhooks, recurring billing with dunning, outbox pattern, row-level locking on stock reservations, ARQ workers, OpenTelemetry/Prometheus, tests on real PostgreSQL via testcontainers |
-| [e-commerce-api](https://github.com/Sanoy24/e-commerce-api) | NestJS + Prisma REST API with Docker Compose |
-| [lyrics-rest-api](https://github.com/Sanoy24/lyrics-rest-api) | Go REST API — GORM, PostgreSQL, unit tests, CI |
-| [djinni-telegram-bot](https://github.com/Sanoy24/djinni-telegram-bot) | Go Telegram bot delivering filtered job alerts from Djinni's RSS feed |
-| [trp1-document-intelligence-refinery](https://github.com/Sanoy24/trp1-document-intelligence-refinery) | Multi-stage document pipeline — Docling, ChromaDB, LangGraph |
+**[PDF data extraction](https://github.com/Sanoy24/pdf-data-extraction)**. Turns messy PDFs (tables, multi-column, scanned) into structured data and answers questions with citations to the source page. Picks the cheapest extraction method per page.
 
 ---
 
-## Open-source tools
+## Node.js / TypeScript
 
-| Project | What it is | Install |
-| --- | --- | --- |
-| 🗺️ [**Brownfield Cartographer**](https://github.com/Sanoy24/the-brownfield-cartographer) | Local-first repository analysis engine: code structure, dependency impact, and data lineage (Python, SQL, dbt) through one query engine exposed as a CLI, Python API, and read-only MCP server. Deterministic by default — no network or model required. | `pipx install brownfield-cartographer` |
-| 🛡️ [**safe-fetch-mcp-server**](https://github.com/Sanoy24/safe-fetch-mcp-server) | MCP fetch server built around correct SSRF defense: resolve once, validate the resolved IP, pin the connection, and re-check every redirect hop. Covers IPv4-mapped IPv6, DNS rebinding, and encoded-IP edge cases. | `npx safe-fetch-mcp-server` |
-| ⚖️ [**JevPolicy**](https://github.com/Sanoy24/jevpolicy) | TypeScript decision runtime: an LLM answers typed questions, ordered YAML rules make the decision. Versioned policies, offline tests, policy diffs, shadow evaluation, and replay from recorded signals. | `npm i @sanoy24/jevpolicy` |
-| 🔍 [**backend-performance-review**](https://github.com/Sanoy24/backend-performance-review) | Agent Skill that teaches coding agents (Claude Code, Codex, Cursor, Copilot) evidence-based backend performance review, with a JSON schema validator and a GitHub Action. It refuses to invent numbers and returns zero findings rather than fake ones. | `npx skills add …` |
-| ⬇️ [**YTGrab**](https://github.com/Sanoy24/ytgrab) | Single-binary Go app with a local web UI for yt-dlp: real quality selection, playlists, resumable downloads, tray integration, and a browser extension. Cross-platform releases via Homebrew, Scoop, and a checksum-verified installer. | `brew install sanoy24/tap/ytgrab` |
+- **[escrow-marketplace-fullstack](https://github.com/Sanoy24/escrow-marketplace-fullstack)**: React + NestJS + PostgreSQL excerpt from a marketplace I built, with escrow payments, real-time chat over Socket.IO and auth. 65 tests.
+- **[safe-fetch-mcp-server](https://github.com/Sanoy24/safe-fetch-mcp-server)** ![npm downloads](https://img.shields.io/npm/dm/safe-fetch-mcp-server?style=flat-square&label=npm) lets AI agents fetch web pages without SSRF: it resolves each address once, pins that IP and re-checks every redirect.
+- **[JevPolicy](https://github.com/Sanoy24/jevpolicy)** ![npm version](https://img.shields.io/npm/v/@sanoy24/jevpolicy?style=flat-square) is a decision runtime: an LLM answers typed questions, versioned YAML rules make the decision, and every decision can be replayed.
+- **[e-commerce-api](https://github.com/Sanoy24/e-commerce-api)**: NestJS + Prisma REST API with Docker Compose.
 
-`Python` `TypeScript` `Go` `MCP` `tree-sitter` `sqlglot` `Zod` `Vercel AI SDK` `SQLite` `GitHub Actions`
+## Python backend
 
----
+- **[fastapi-ecommerce](https://github.com/Sanoy24/fastapi-ecommerce)** ![stars](https://img.shields.io/github/stars/Sanoy24/fastapi-ecommerce?style=flat-square) has Stripe payments and subscriptions with idempotency keys, an outbox for reliable events, ARQ workers and OpenTelemetry tracing, tested against real PostgreSQL.
+- **[repoward](https://github.com/Sanoy24/repoward)** ![PyPI downloads](https://img.shields.io/pypi/dm/repoward?style=flat-square&label=pypi) is a GitHub MCP server that stops prompt-injected agents from leaking private code, with flow guards, policies, human approval and an audit log. Alpha.
+- **[Brownfield Cartographer](https://github.com/Sanoy24/the-brownfield-cartographer)** ![PyPI downloads](https://img.shields.io/pypi/dm/brownfield-cartographer?style=flat-square&label=pypi) maps code structure, change impact and SQL, dbt and Airflow data lineage, as a CLI and a read-only MCP server.
+- **[backend-performance-review](https://github.com/Sanoy24/backend-performance-review)**: an Agent Skill that teaches coding agents (Claude Code, Codex, Cursor) evidence-based backend performance review.
 
-## AI systems & evaluation
+## Go
 
-- 🏦 **[agentic-event-store](https://github.com/Sanoy24/agentic-event-store)** — Append-only PostgreSQL event store for multi-agent workflows: optimistic concurrency (covered by a double-decision concurrency test), CQRS projections, a SHA-256 hash-chained audit ledger, and an MCP server exposing the store as agent tools. `Python` `PostgreSQL` `FastMCP` `Event sourcing`
-- 📊 **[tenacious-bench](https://github.com/Sanoy24/tenacious-bench)** — 242-task, machine-verifiable benchmark for B2B sales agents (14 failure dimensions, Cohen's κ = 0.91 on a stratified sample), plus a SimPO LoRA judge on Qwen2.5-3B. [Dataset](https://huggingface.co/datasets/sanoy24/tenacious_bench_v0.1) · [Adapter](https://huggingface.co/sanoy24/tenacious-judge-qwen25-3b-gamma15) · [Write-up](https://yonasmekonnen.substack.com/p/building-a-0-100-accurate-ai-sales)
-- ⚖️ **[Automaton Auditor](https://github.com/Sanoy24/trp1-automation-auditor)** — LangGraph code-audit swarm: tool-based detective agents collect evidence, three LLM judges score a 10-dimension rubric, and a chief-justice node resolves disagreements with deterministic Python rules. Multi-provider (Ollama, OpenAI, Anthropic, Google). `LangGraph` `Python`
-- 🤖 **[Conversion Engine](https://github.com/Sanoy24/conversion-engine)** — Lead-enrichment and outreach agent with HubSpot MCP, Cal.com, and Langfuse tracing; 70 tests and a 37-probe adversarial suite. `FastAPI` `Langfuse` `Python`
+- **[YTGrab](https://github.com/Sanoy24/ytgrab)** ![downloads](https://img.shields.io/github/downloads/Sanoy24/ytgrab/total?style=flat-square) is a single-binary video downloader with a local web UI and a browser extension, shipped through 26 releases on Homebrew and Scoop.
 
----
+## AI evaluation
 
-## Skills
+- **[tenacious-bench](https://github.com/Sanoy24/tenacious-bench)**: a 242-task benchmark for B2B sales agents, plus a LoRA judge model ([dataset](https://huggingface.co/datasets/sanoy24/tenacious_bench_v0.1) on Hugging Face).
+- **[agentic-event-store](https://github.com/Sanoy24/agentic-event-store)**: an append-only PostgreSQL event store for multi-agent systems, with a hash-chained audit log and an MCP server.
 
-**Languages** — Python · TypeScript · Go · JavaScript<br/>
-**Backend** — FastAPI · NestJS · Node.js · Express · Gin · Django<br/>
-**AI & agents** — MCP · LangGraph · LangChain · OpenAI · Anthropic · Vercel AI SDK · Langfuse · LangSmith<br/>
-**Payments** — Stripe · idempotency · outbox pattern · wallets & ledgers<br/>
-**Data & infra** — PostgreSQL · MySQL · Redis · MongoDB · SQLite · ChromaDB · Docker · AWS · GitHub Actions<br/>
-**Testing** — pytest · testcontainers · Go testing · ruff · mypy<br/>
-**ML** — Hugging Face · LoRA / SimPO fine-tuning · RAG · LLM evaluation
+Graduated with distinction (top 3%) from 10 Academy's AI Agent and Forward Deployed Engineering program.
+
+**Currently building:** a pre-release AI payments assistant for a banking client (November 2026).
 
 ---
 
-## Open-source recognition
-
-[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Sanoy24/badge.svg)](https://hub.xerj.org/contributors/Sanoy24.html)
-
-A YTGrab commit ([podcast feeds for watched channels](https://github.com/Sanoy24/ytgrab/commit/6eeafb23f7)) was selected for the [XERJ Corpus Hub](https://hub.xerj.org/contributors/Sanoy24.html), an open reference corpus that AI coding agents search for worked examples.
-
-[![Brownfield Cartographer MCP server](https://mcprush.com/badge/brownfield-cartographer-mcp/card.svg)](https://mcprush.com/to/brownfield-cartographer-mcp?ref=badge)
-
-[![Safe Fetch MCP server](https://mcprush.com/badge/safe-fetch-mcp/card.svg)](https://mcprush.com/to/safe-fetch-mcp?ref=badge)
-
-The [Brownfield Cartographer](https://github.com/Sanoy24/the-brownfield-cartographer) and [safe-fetch](https://github.com/Sanoy24/safe-fetch-mcp-server) MCP servers are listed on mcprush, an MCP server directory, both with a security grade of A.
-
----
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sanoy24&theme=tokyonight" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sanoy24&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <sub><a href="mailto:myonas886@gmail.com">myonas886@gmail.com</a> · <a href="https://www.linkedin.com/in/yonassanoy/">LinkedIn</a> · <a href="https://yonas-mekonnen-portfolio-zeta.vercel.app/">Portfolio</a></sub>
-</p>
+**[Hire me on Upwork](https://www.upwork.com/freelancers/~01aacbf104ed26ec0d)**
